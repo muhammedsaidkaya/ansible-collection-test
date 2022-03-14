@@ -5,7 +5,7 @@ Documentation for the collection.
 
 # Install 
 ```
-ansible-galaxy collection install git+https://github.com/muhammedsaidkaya/muhammed.kaya.git,master
+ansible-galaxy collection install git+https://github.com/muhammedsaidkaya/ansible-collection-test.git,master
 
 ```
 

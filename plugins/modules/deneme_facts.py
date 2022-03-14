@@ -7,13 +7,13 @@ __metaclass__ = type
 
 DOCUMENTATION = r'''
 ---
-module: my_test_facts
+module: deneme_facts
 
-short_description: This is my test facts module
+short_description: This is deneme facts module
 
 version_added: "1.0.0"
 
-description: This is my longer description explaining my test facts module.
+description: This is my longer description explaining deneme facts module.
 
 author:
     - Your Name (@yourGitHubHandle)
@@ -21,7 +21,7 @@ author:
 
 EXAMPLES = r'''
 - name: Return ansible_facts
-  my_namespace.my_collection.my_test_facts:
+  muhammed.kaya.deneme_facts:
 '''
 
 RETURN = r'''

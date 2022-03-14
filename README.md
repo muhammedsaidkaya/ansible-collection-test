@@ -1,7 +1,11 @@
+# Ansible Collection - muhammed.kaya
 
-# Install
+Documentation for the collection.
+
+
+# Install 
 ```
-ansible-galaxy collection install git+https://github.com/muhammedsaidkaya/ansible-collection-test,master
+ansible-galaxy collection install git+https://github.com/muhammedsaidkaya/muhammed.kaya.git,master
 
 ```
 
@@ -11,7 +15,7 @@ ansible-galaxy collection install git+https://github.com/muhammedsaidkaya/ansibl
   hosts: localhost
   tasks:
     - name: run the new module
-      kloia.provisioner.deneme:
+      muhammed.kaya.deneme:
         name: 'hello'
         new: true
       register: testout
